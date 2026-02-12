@@ -1,0 +1,72 @@
+{
+  "expo": {
+    "name": "Aura Break",
+    "slug": "aurabreak",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0A0E1A"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.kmkcodelab.aurabreak",
+      "infoPlist": {
+        "UIBackgroundModes": ["audio", "fetch", "processing"]
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#0A0E1A"
+      },
+      "package": "com.kmkcodelab.aurabreak",
+      "permissions": [
+        "SYSTEM_ALERT_WINDOW",
+        "FOREGROUND_SERVICE",
+        "RECEIVE_BOOT_COMPLETED",
+        "VIBRATE",
+        "WAKE_LOCK",
+        "POST_NOTIFICATIONS",
+        "INTERNET",
+        "ACCESS_NETWORK_STATE"
+      ],
+      "googleMobileAdsAppId": "ca-app-pub-8386795368168436~9681094959"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5f8d55a3-3015-456a-babb-5c7e283027ab"
+      }
+    },
+    "owner": "kmkcodelab",
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 35,
+            "targetSdkVersion": 35,
+            "minSdkVersion": 24,
+            "kotlinVersion": "1.9.25"
+          }
+        }
+      ],
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidAppId": "ca-app-pub-8386795368168436~9681094959"
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "sounds": []
+        }
+      ]
+    ]
+  }
+}
