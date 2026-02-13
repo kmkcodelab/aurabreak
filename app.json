@@ -11,7 +11,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#0A0E1A"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": false
     },
@@ -51,7 +53,8 @@
           "androidAppId": "ca-app-pub-8386795368168436~9681094959"
         }
       ],
-      "./plugins/withOverlayPermission.js"
+      "./plugins/withOverlayPermission.js",
+      "expo-asset"
     ],
     "extra": {
       "eas": {
