@@ -11,16 +11,16 @@ interface MoodOption {
 }
 
 const MOOD_OPTIONS: MoodOption[] = [
-  { type: 'great', emoji: '🤩', label: 'GREAT', color: COLORS.moodGreat },
+  { type: 'great', emoji: '✨', label: 'GREAT', color: COLORS.moodGreat },
   { type: 'good', emoji: '😊', label: 'GOOD', color: COLORS.moodGood },
   { type: 'neutral', emoji: '😐', label: 'NEUTRAL', color: COLORS.moodNeutral },
   {
     type: 'productive',
-    emoji: '💻',
+    emoji: '🚀',
     label: 'PRODUCTIVE',
     color: COLORS.moodProductive,
   },
-  { type: 'tired', emoji: '😫', label: 'TIRED', color: COLORS.moodTired },
+  { type: 'tired', emoji: '😴', label: 'TIRED', color: COLORS.moodTired },
 ];
 
 interface Props {
