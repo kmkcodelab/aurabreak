@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "708996318625",
+    "project_id": "aurabreak",
+    "storage_bucket": "aurabreak.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708996318625:android:b1426a68c071bab8b5b7e0",
+        "android_client_info": {
+          "package_name": "com.kmkcodelab.aurabreak"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw22zr3rmVx3jHJ2UmXoibu7dovLFlqDE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
