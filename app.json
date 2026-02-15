@@ -43,10 +43,6 @@
             "compileSdkVersion": 34,
             "targetSdkVersion": 34,
             "minSdkVersion": 24,
-            "kotlinVersion": "1.9.24",
-            "extraProperties": {
-        "react.composeCompiler.suppressKotlinVersionCompatibilityCheck": "true"
-            }
           }
         }
       ],
@@ -57,6 +53,7 @@
         }
       ],
       "./plugins/withOverlayPermission.js",
+      "./plugins/withKotlinFix",
       "expo-asset"
     ],
     "extra": {
