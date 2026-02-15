@@ -1,19 +1,17 @@
 {
   "build": {
-    "production": {
-      "android": {
-        "buildType": "apk"
-      },
-      "cache": {
-        "disabled": true
-      }
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
     },
     "apk_build": {
       "android": {
         "buildType": "apk"
-      },
-      "cache": {
-        "disabled": true
+      }
+    },
+    "production": {
+      "android": {
+        "buildType": "app-bundle"
       }
     }
   }
