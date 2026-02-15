@@ -80,7 +80,7 @@ class TimerForegroundService : Service() {
 
     private fun createNotificationChannel() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            const val channelId = "timer_channel"
+            val channelId = "timer_channel"
             val channelName = "Timer Service"
             val chan = NotificationChannel(channelId, channelName, NotificationManager.IMPORTANCE_LOW)
             val manager = getSystemService(NotificationManager::class.java)
