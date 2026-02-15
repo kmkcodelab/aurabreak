@@ -40,6 +40,10 @@
     "react-native-svg": "~15.8.0",
     "react-native-system-setting": "^1.7.6"
   },
+  "overrides": {
+    "kotlin": "1.9.24",
+    "org.jetbrains.kotlin:kotlin-gradle-plugin": "1.9.24"
+  },
   "devDependencies": {
     "@babel/core": "^7.24.0",
     "@types/react": "~18.3.0",
